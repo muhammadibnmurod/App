@@ -1,0 +1,250 @@
+{
+  "action": {
+    "cancel": "Отменить",
+    "download": "Скачать",
+    "downloadAsExcel": "Скачать (Excel)",
+    "plural": "Действия",
+    "dataSuccessfullyUpdated": "Данные успешно обновлены",
+    "save": "Сохранить",
+    "success": "Успешно",
+    "error": "Произошла ошибка",
+    "create": {
+      "createNewWagon": "Создать вагон",
+      "createNewUser": "Создать пользователя",
+      "createNewRole": "Создать роль"
+    },
+    "assign": {
+      "roleToUser": "Назначить роль пользователю"
+    },
+    "back": "Назад"
+  },
+  "ai": {
+    "title": "ИИ"
+  },
+  "all": {
+    "title": "Все"
+  },
+  "camera": {
+    "video": "Видео",
+    "title": "Камера",
+    "list": "Камеры",
+    "companies": "Компании",
+    "statistics": "Статистика вагонов",
+    "wagonEnteredAt": "Время входа",
+    "station": "Станция",
+    "stationCode": "Код",
+    "wagonAllCount": "Вагон",
+    "direction": "Направление",
+    "searchName": "Поиск по названию камеры",
+    "camera_name": "Название камеры",
+    "totalWagonsNumber": "Общее количество вагонов",
+    "wagonsDirection": "Направление вагонов",
+    "enter": "Вход",
+    "exit": "Выход",
+    "itemsWithDefects": "Показать неопознанные"
+  },
+  "helmet": {
+    "title": "Каска",
+    "list": "Каски",
+    "companies": "Компании",
+    "statistics": "Статистика касок",
+    "cameraName": "Номер камеры",
+    "companyName": "Название места",
+    "company": "Название компании",
+    "time": "Время",
+    "definedImage": "Определенное изображение",
+    "fullPicture": "Полное изображение",
+    "ruleStatus": "Уровень дисциплины",
+    "violation": "Нарушение правил",
+    "violationNumber": "Количество нарушений правил",
+    "cameraNumber": "Количество камер"
+  },
+  "common": {
+    "name": "Название",
+    "status": {
+      "good": "Хорошо",
+      "average": "Средне",
+      "bad": "Плохо"
+    },
+    "photo": "Фото",
+    "numberPhoto": "Фото номера",
+    "wagonNumber": "Номер вагона",
+    "weighedAt": "Время взвешивания вагона",
+    "loadNorm": "Норма грузоподъемности",
+    "measuredWeight": "Измеренный вес",
+    "loadInWagon": "Груз в вагоне",
+    "time": "Время",
+    "startDate": "Дата начала",
+    "endDate": "Дата окончания",
+    "askQuestion": "Если у вас есть вопросы, напишите"
+  },
+  "date": {
+    "choose": "Выберите дату",
+    "chooseTheDate": "Выберите нужную дату",
+    "from": "Из",
+    "till": "До"
+  },
+  "n": {
+    "ton": "{n} тонн"
+  },
+  "pagination": {
+    "next": "Вперед",
+    "prev": "Назад"
+  },
+  "platform": {
+    "libraAI": "Весы ИИ",
+    "title": "Платформа",
+    "scales": "Tarozi AI",
+    "camera": "Vagon vision",
+    "helmet": "Kaska vision",
+    "app": "Управление системой",
+    "chat": "Чат Бот"
+  },
+  "wagons": {
+    "title": "Вагоны",
+    "name": "Название вагона"
+  },
+  "station": {
+    "choose": "Выберите станцию",
+    "plural": "Станции",
+    "search": "Поиск станции",
+    "overload": "Перегрузка",
+    "clean": "Чистый груз"
+  },
+  "statistic": {
+    "title": "Статистика"
+  },
+  "wagon": {
+    "capacity": "Норма грузоподъёмности",
+    "cargoWeight": "Груз в вагоне",
+    "dowloadAsExcel": "Скачать вагоны в виде файла Excel",
+    "downloadType": {
+      "daily": "Ежедневно",
+      "period": "Периодический"
+    },
+    "image": "Фото",
+    "listAll": "Список всех вагонов",
+    "measured": "Измеренный вес",
+    "number": "Номер вагона",
+    "numberImage": "Изображение числа",
+    "plural": "Вагоны",
+    "search": "Поиск вагонов",
+    "statistics": "Статистика вагонов",
+    "time": "Время тяги вагона",
+    "totalWagons": "Общее количество вагонов"
+  },
+  "auth": {
+    "login": "Войти",
+    "username": "Имя пользователя",
+    "password": "Пароль",
+    "description": "Введите пароль пользователя для входа",
+    "projectList": "Вы можете контролировать вышеперечисленные проекты, войдя в систему",
+    "selectRole": "Выберите роль",
+    "slide": {
+      "title": "Добро пожаловать на платформу",
+      "description": "Цифровизация железных дорог и контроль через камеры ИИ"
+    }
+  },
+  "table": {
+    "empty": "Данные отсутствуют"
+  },
+  "allWagons": {
+    "number": "Номер поезда",
+    "loadCapacity": "Грузоподъемность",
+    "wagonWeight": "Вес вагона",
+    "form": {
+      "number": "Номер вагона",
+      "numberPlaceholder": "Введите номер вагона",
+      "weight": "Вес (тонны)",
+      "weightPlaceholder": "Введите вес вагона",
+      "wagonWeight": "Вес вагона (тонны)",
+      "wagonWeightPlaceholder": "Введите вес вагона"
+    }
+  },
+  "app": {
+    "users": "Пользователи",
+    "roles": "Роли"
+  },
+  "users": {
+    "profile": "Профиль",
+    "login": "Логин",
+    "search": "Поиск пользователя",
+    "form": {
+      "login": "Логин",
+      "loginPlaceholder": "Введите логин",
+      "password": "Пароль",
+      "passwordPlaceholder": "Введите пароль",
+      "role": "Роль",
+      "rolePlaceholder": "Выберите роль",
+      "organization": "Организация",
+      "organizationPlaceholder": "Выберите организацию",
+      "organizationType": "Тип организации",
+      "organizationTypePlaceholder": "Выберите тип организации",
+      "apps": "Приложения",
+      "appsPlaceholder": "Выберите приложения",
+      "pin": "ПИНФЛ",
+      "pinPlaceholder": "Введите ПИНФЛ",
+      "userInfo": "Информация о пользователе"
+    },
+    "organizationTypes": {
+      "mtu": "МТУ",
+      "station": "Станция"
+    }
+  },
+  "roles": {
+    "search": "Поиск роли",
+    "form": {
+      "name": "Название роли",
+      "namePlaceholder": "Введите название роли"
+    }
+  },
+  "error": {
+    "pageNotFound": "Страница не найдена",
+    "route": "Вы ввели неправильный адрес, вернитесь на главную страницу",
+    "homePage": "Главная страница"
+  },
+  "scales": {
+    "statistics": {
+      "total_count": "Общее количество загруженных вагонов",
+      "total_weight": "Объем перевозок (тонны)",
+      "extra_weighted_wagons": "Количество перегруженных вагонов",
+      "extra_weight": "Перегрузка (тонны)",
+      "best_region": "Лучший регион",
+      "confirmed_wagons_by_region": "Подтвержденные вагоны по регионам",
+      "confirmed_wagons_by_percentage": "Подтвержденные вагоны в процентах",
+      "extra_weight_wagons_by_percentage": "Перегруженные вагоны в процентах",
+      "wagons_statistics_by_period": "Статистика вагонов по периодам",
+      "select_station": "Выберите станцию",
+      "measuredWagonsCount": "Количество измеренных вагонов",
+      "forYear": "Статистические данные за {year} год",
+      "within_norm": "Недогруз",
+      "overloaded": "Перегруз",
+      "forStations": "Данные по станциям"
+    }
+  },
+  "months": {
+    "january": "Январь",
+    "february": "Февраль",
+    "march": "Март",
+    "april": "Апрель",
+    "may": "Май",
+    "june": "Июнь",
+    "july": "Июль",
+    "august": "Август",
+    "september": "Сентябрь",
+    "october": "Октябрь",
+    "november": "Ноябрь",
+    "december": "Декабрь"
+  },
+  "chat": {
+    "title": "Чат Бот"
+  },
+  "systemTypes": {
+    "none": "Нет",
+    "scale": "Тарази",
+    "helmet": "Kaska",
+    "vision": "Vision",
+    "management": "Управление",
+    "assistant": "Ассистент"
+  }
+}

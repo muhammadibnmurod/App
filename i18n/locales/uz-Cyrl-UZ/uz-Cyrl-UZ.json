@@ -1,0 +1,250 @@
+{
+  "action": {
+    "cancel": "Бекор қилиш",
+    "download": "Юклаш",
+    "downloadAsExcel": "Юклаш (Excel)",
+    "plural": "Амаллар",
+    "dataSuccessfullyUpdated": "Маълумотлар муваффақиятли янгиланди",
+    "save": "Сақлаш",
+    "success": "Муваффақиятли",
+    "error": "Хатолик юз берди",
+    "create": {
+      "createNewWagon": "Вагон яратиш",
+      "createNewUser": "Фойдаланувчи яратиш",
+      "createNewRole": "Рол яратиш"
+    },
+    "assign": {
+      "roleToUser": "Фойдаланувчига рол бириктириш"
+    },
+    "back": "Орқага"
+  },
+  "ai": {
+    "title": "СИ"
+  },
+  "all": {
+    "title": "Барчаси"
+  },
+  "camera": {
+    "video": "Видео",
+    "title": "Камера",
+    "list": "Камералар",
+    "companies": "Корхоналар",
+    "statistics": "Вагонлар статистикаси",
+    "wagonEnteredAt": "Кириш вақти",
+    "station": "Станция",
+    "stationCode": "Код",
+    "wagonAllCount": "Вагон",
+    "direction": "Йўналиш",
+    "searchName": "Камера номи бўйича қидирув",
+    "camera_name": "Камера номи",
+    "totalWagonsNumber": "Умумий вагонлар сони",
+    "wagonsDirection": "Вагонлар йўналиши",
+    "enter": "Кириш",
+    "exit": "Чиқиш",
+    "itemsWithDefects": "Аниқланмаганларни кўрсатиш"
+  },
+  "helmet": {
+    "title": "Каска",
+    "list": "Каскалар",
+    "companies": "Корхоналар",
+    "statistics": "Каскалар статистикаси",
+    "cameraName": "Камера рақами",
+    "companyName": "Жой номи",
+    "company": "Корхона номи",
+    "time": "Вақти",
+    "definedImage": "Аниқланган сурат",
+    "fullPicture": "Тўлиқ сурат",
+    "ruleStatus": "Интизом даражаси",
+    "violation": "Қоида бузилиши",
+    "violationNumber": "Қоида бузилишлари сони",
+    "cameraNumber": "Камера сони"
+  },
+  "common": {
+    "name": "Номи",
+    "status": {
+      "good": "Яхши",
+      "average": "Ўрта",
+      "bad": "Ёмон"
+    },
+    "photo": "Сурат",
+    "numberPhoto": "Рақам сурати",
+    "wagonNumber": "Вагон рақами",
+    "weighedAt": "Вагон тортилинган вақти",
+    "loadNorm": "Юк кўтариш нормаси",
+    "measuredWeight": "Ўлчаган оғирлик",
+    "loadInWagon": "Вагондаги юк",
+    "time": "Вақти",
+    "startDate": "Бошланиш санаси",
+    "endDate": "Тугаш санаси",
+    "askQuestion": "Саволларингиз бўлса ёзинг"
+  },
+  "date": {
+    "choose": "Санани танланг",
+    "chooseTheDate": "Керакли санани танланг",
+    "from": "Дан",
+    "till": "Гача"
+  },
+  "n": {
+    "ton": "{n} тонна"
+  },
+  "pagination": {
+    "next": "Олдинга",
+    "prev": "Орқага"
+  },
+  "platform": {
+    "libraAI": "Тарози АИ",
+    "title": "Платформа",
+    "scales": "Tarozi AI",
+    "camera": "Vagon vision",
+    "helmet": "Kaska vision",
+    "app": "Тизим бошқаруви",
+    "chat": "Чат Бот"
+  },
+  "wagons": {
+    "title": "Вагонлар",
+    "name": "Вагон номи"
+  },
+  "station": {
+    "choose": "Станция танланг",
+    "plural": "Станциялар",
+    "search": "Станция қидирув",
+    "overload": "Ортиқча юк",
+    "clean": "Тоза юк"
+  },
+  "statistic": {
+    "title": "Статистика"
+  },
+  "wagon": {
+    "capacity": "Юк кўтариш нормаси",
+    "cargoWeight": "Вагондаги юк",
+    "dowloadAsExcel": "Вагонларни Excel файл кўринишида юклаш",
+    "downloadType": {
+      "daily": "Кунлик",
+      "period": "Даврий"
+    },
+    "image": "Сурати",
+    "listAll": "Барча вагонлар рўйҳати",
+    "measured": "Ўлчанган оғирлик",
+    "number": "Вагон рақами",
+    "numberImage": "Рақам сурати",
+    "plural": "Вагонлар",
+    "search": "Вагон қидирув",
+    "statistics": "Вагонлар статистикаси",
+    "time": "Вагон тортилган вақти",
+    "totalWagons": "Умумий вагонлар сони"
+  },
+  "auth": {
+    "login": "Кириш",
+    "username": "Фойдаланувчи номи",
+    "password": "Парол",
+    "description": "Кириш учун фойдаланувчи паролингизни киритинг",
+    "projectList": "Сиз тизимга кириш орқали юқоридаги лойиҳаларни назорат қила оласиз",
+    "selectRole": "Ролни танланг",
+    "slide": {
+      "title": "Платформага хуш келибсиз",
+      "description": "Темир йўлларини рақамлаштириш ва AI камералари орқали назорат қилиш"
+    }
+  },
+  "table": {
+    "empty": "Маълумотлар мавжуд эмас"
+  },
+  "allWagons": {
+    "number": "Пойезд рақами",
+    "loadCapacity": "Юк кўтариш қобилияти",
+    "wagonWeight": "Вагон оғирлиги",
+    "form": {
+      "number": "Вагон рақами",
+      "numberPlaceholder": "Вагон рақамини киритинг",
+      "weight": "Оғирлиги (тонна)",
+      "weightPlaceholder": "Вагон оғирлигини киритинг",
+      "wagonWeight": "Вагон вазни (тонна)",
+      "wagonWeightPlaceholder": "Вагон вазнини киритинг"
+    }
+  },
+  "app": {
+    "users": "Фойдаланувчилар",
+    "roles": "Роллар"
+  },
+  "users": {
+    "profile": "Профил",
+    "login": "Логин",
+    "search": "Фойдаланувчи қидируви",
+    "form": {
+      "login": "Логин",
+      "loginPlaceholder": "Логин киритинг",
+      "password": "Парол",
+      "passwordPlaceholder": "Парол киритинг",
+      "role": "Рол",
+      "rolePlaceholder": "Ролни танланг",
+      "organization": "Корхона",
+      "organizationPlaceholder": "Корхонани танланг",
+      "organizationType": "Корхона тури",
+      "organizationTypePlaceholder": "Корхона турини танланг",
+      "apps": "Дастурлар",
+      "appsPlaceholder": "Дастурларни танланг",
+      "pin": "ЖШШИР",
+      "pinPlaceholder": "ЖШШИР киритинг",
+      "userInfo": "Фойдаланувчи ҳақида маълумотлар"
+    },
+    "organizationTypes": {
+      "mtu": "МТУ",
+      "station": "Станция"
+    }
+  },
+  "roles": {
+    "search": "Рол қидируви",
+    "form": {
+      "name": "Рол номи",
+      "namePlaceholder": "Рол номини киритинг"
+    }
+  },
+  "error": {
+    "pageNotFound": "Саҳифа топилмади",
+    "route": "Сиз но’tог’ри манзил киритдингиз қайта бош саҳифага қайтинг",
+    "homePage": "Бош саҳифа"
+  },
+  "scales": {
+    "statistics": {
+      "total_count": "Умумий ўлчанган вагонлар",
+      "total_weight": "Юк ташиш ҳажми (тонна)",
+      "extra_weighted_wagons": "Ортиқча ўлчанган вагонлар сони",
+      "extra_weight": "Ортиқча юк ташиш (тонна)",
+      "best_region": "Энг яхши ҳудуд",
+      "confirmed_wagons_by_region": "Тасдиқланган вагонлар ҳудудлар кесимида",
+      "confirmed_wagons_by_percentage": "Тасдиқланган вагонлар фоиз кўрсатгичи",
+      "extra_weight_wagons_by_percentage": "Ортиқча ўлчанган вагонлар фоиз кўрсатгичи",
+      "wagons_statistics_by_period": "Давр бўйича вагонлар статистикаси",
+      "select_station": "Станцияни танланг",
+      "measuredWagonsCount": "Ўлчанган вагонлар сони",
+      "forYear": "{year}-йилдаги статистик маълумотлар",
+      "within_norm": "Кам юк",
+      "overloaded": "Ортиқча юк",
+      "forStations": "Станциялар бўйича маълумотлар"
+    }
+  },
+  "months": {
+    "january": "Январ",
+    "february": "Феврал",
+    "march": "Март",
+    "april": "Апрел",
+    "may": "Май",
+    "june": "Июн",
+    "july": "Июл",
+    "august": "Август",
+    "september": "Сентябр",
+    "october": "Октябр",
+    "november": "Ноябр",
+    "december": "Декабр"
+  },
+  "chat": {
+    "title": "Чат Бот"
+  },
+  "systemTypes": {
+    "none": "Йўқ",
+    "scale": "Тароузи",
+    "helmet": "Каска",
+    "vision": "Vision",
+    "management": "Бошқарув",
+    "assistant": "Ёрдамчи"
+  }
+}

@@ -1,0 +1,250 @@
+{
+  "action": {
+    "cancel": "Cancel",
+    "download": "Download",
+    "downloadAsExcel": "Download (Excel)",
+    "plural": "Actions",
+    "dataSuccessfullyUpdated": "Data successfully updated",
+    "save": "Save",
+    "success": "Successful",
+    "error": "An error occurred",
+    "create": {
+      "createNewWagon": "Create new wagon",
+      "createNewUser": "Create new user",
+      "createNewRole": "Create new role"
+    },
+    "assign": {
+      "roleToUser": "Assign role to user"
+    },
+    "back": "Back"
+  },
+  "ai": {
+    "title": "AI"
+  },
+  "all": {
+    "title": "Everything"
+  },
+  "camera": {
+    "video": "Video",
+    "title": "Camera",
+    "list": "Cameras",
+    "companies": "Companies",
+    "statistics": "Wagon statistics",
+    "wagonEnteredAt": "Entry time",
+    "station": "Station",
+    "stationCode": "Code",
+    "wagonAllCount": "Wagon",
+    "direction": "Direction",
+    "searchName": "Search by camera name",
+    "camera_name": "Camera name",
+    "totalWagonsNumber": "Total number of wagons",
+    "wagonsDirection": "Wagon direction",
+    "enter": "Enter",
+    "exit": "Exit",
+    "itemsWithDefects": "Show unidentified"
+  },
+  "helmet": {
+    "title": "Helmet",
+    "list": "Helmets",
+    "companies": "Companies",
+    "statistics": "Helmet statistics",
+    "cameraName": "Camera number",
+    "companyName": "Place name",
+    "company": "Company name",
+    "time": "Time",
+    "definedImage": "Defined image",
+    "fullPicture": "Full image",
+    "ruleStatus": "Discipline level",
+    "violation": "Rule violation",
+    "violationNumber": "Number of rule violations",
+    "cameraNumber": "Number of cameras"
+  },
+  "common": {
+    "name": "Name",
+    "status": {
+      "good": "Good",
+      "average": "Average",
+      "bad": "Bad"
+    },
+    "photo": "Photo",
+    "numberPhoto": "Photo of the number",
+    "wagonNumber": "Wagon number",
+    "weighedAt": "Wagon weighed at",
+    "loadNorm": "Load capacity norm",
+    "measuredWeight": "Measured weight",
+    "loadInWagon": "Cargo in the wagon",
+    "time": "Time",
+    "startDate": "Start date",
+    "endDate": "End date",
+    "askQuestion": "If you have any questions, write"
+  },
+  "date": {
+    "choose": "Select a date",
+    "chooseTheDate": "Select the desired date",
+    "from": "From",
+    "till": "Until"
+  },
+  "n": {
+    "ton": "{n} tons"
+  },
+  "pagination": {
+    "next": "Forward",
+    "prev": "Back"
+  },
+  "platform": {
+    "libraAI": "Libra AI",
+    "title": "Platform",
+    "scales": "Tarozi AI",
+    "camera": "Vagon vision",
+    "helmet": "Kaska vision",
+    "app": "System management",
+    "chat": "Chat Bot"
+  },
+  "wagons": {
+    "title": "Wagons",
+    "name": "Wagon name"
+  },
+  "station": {
+    "choose": "Select a station",
+    "plural": "Stations",
+    "search": "Station search",
+    "overload": "Overload",
+    "clean": "Clean cargo"
+  },
+  "statistic": {
+    "title": "Statistics"
+  },
+  "wagon": {
+    "capacity": "Load capacity",
+    "cargoWeight": "Cargo in the wagon",
+    "dowloadAsExcel": "Download wagons as an Excel file",
+    "downloadType": {
+      "daily": "Daily",
+      "period": "Periodic"
+    },
+    "image": "Photo",
+    "listAll": "List of all wagons",
+    "measured": "Weight measured",
+    "number": "Wagon number",
+    "numberImage": "Image of the number",
+    "plural": "Wagons",
+    "search": "Wagon search",
+    "statistics": "Wagon statistics",
+    "time": "Wagon pulling time",
+    "totalWagons": "Total number of wagons"
+  },
+  "auth": {
+    "login": "Login",
+    "username": "Username",
+    "password": "Password",
+    "description": "Enter the user password to log in",
+    "projectList": "You can control the above projects by logging in",
+    "selectRole": "Select role",
+    "slide": {
+      "title": "Welcome to the platform",
+      "description": "Digitalization of railways and control through AI cameras"
+    }
+  },
+  "table": {
+    "empty": "No data available"
+  },
+  "allWagons": {
+    "number": "Train number",
+    "loadCapacity": "Load capacity",
+    "wagonWeight": "Wagon weight",
+    "form": {
+      "number": "Wagon number",
+      "numberPlaceholder": "Enter wagon number",
+      "weight": "Weight (tons)",
+      "weightPlaceholder": "Enter wagon weight",
+      "wagonWeight": "Wagon weight (tons)",
+      "wagonWeightPlaceholder": "Enter wagon weight"
+    }
+  },
+  "app": {
+    "users": "Users",
+    "roles": "Roles"
+  },
+  "users": {
+    "profile": "Profile",
+    "login": "Login",
+    "search": "User search",
+    "form": {
+      "login": "Login",
+      "loginPlaceholder": "Enter login",
+      "password": "Password",
+      "passwordPlaceholder": "Enter password",
+      "role": "Role",
+      "rolePlaceholder": "Select role",
+      "organization": "Organization",
+      "organizationPlaceholder": "Select organization",
+      "organizationType": "Organization type",
+      "organizationTypePlaceholder": "Select organization type",
+      "apps": "Applications",
+      "appsPlaceholder": "Select applications",
+      "pin": "PINFL",
+      "pinPlaceholder": "Enter PINFL",
+      "userInfo": "User information"
+    },
+    "organizationTypes": {
+      "mtu": "MTU",
+      "station": "Station"
+    }
+  },
+  "roles": {
+    "search": "Role search",
+    "form": {
+      "name": "Role name",
+      "namePlaceholder": "Enter role name"
+    }
+  },
+  "error": {
+    "pageNotFound": "Page not found",
+    "route": "You have entered an incorrect address, please return to the homepage",
+    "homePage": "Home page"
+  },
+  "scales": {
+    "statistics": {
+      "total_count": "Total loaded wagons",
+      "total_weight": "Cargo volume (tons)",
+      "extra_weighted_wagons": "Number of overloaded wagons",
+      "extra_weight": "Overload (tons)",
+      "best_region": "Best region",
+      "confirmed_wagons_by_region": "Confirmed wagons by region",
+      "confirmed_wagons_by_percentage": "Confirmed wagons in percentage",
+      "extra_weight_wagons_by_percentage": "Overloaded wagons in percentage",
+      "wagons_statistics_by_period": "Wagon statistics by period",
+      "select_station": "Select station",
+      "measuredWagonsCount": "Number of measured wagons",
+      "forYear": "Statistical data for {year}",
+      "within_norm": "Underloaded",
+      "overloaded": "Overloaded",
+      "forStations": "Data by stations"
+    }
+  },
+  "months": {
+    "january": "January",
+    "february": "February",
+    "march": "March",
+    "april": "April",
+    "may": "May",
+    "june": "June",
+    "july": "July",
+    "august": "August",
+    "september": "September",
+    "october": "October",
+    "november": "November",
+    "december": "December"
+  },
+  "chat": {
+    "title": "Chat Bot"
+  },
+  "systemTypes": {
+    "none": "None",
+    "scale": "Scale",
+    "helmet": "Helmet",
+    "vision": "Vision",
+    "management": "Management",
+    "assistant": "Assistant"
+  }
+}
