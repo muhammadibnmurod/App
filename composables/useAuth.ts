@@ -1,4 +1,4 @@
-import useApiService from "@/composables/iseApiService";
+import useApiService from "@/composables/useApiService";
 
 export default function useAuth() {
     const accessToken = useCookie("access_token");
