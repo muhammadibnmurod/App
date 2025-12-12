@@ -26,7 +26,14 @@
 <template>
     <div class="flex flex-col gap-4 flex-1" v-loading="status === 'pending' || intervalStatus === 'pending'">
       <StatisticsFilter v-model="filterParams" @get="execute()" :filterParamsInterval="filterParamsInterval" @getInterval="executeInterval"  />
+      <stats-card v-if="data" :data="data" />
 
+      <!-- extraWeightPercentage -->
+      <div class="flex gap-4 flex-1">
+        <template v-if="data?.byStation">
+          <region-card  :data="data?.byStation"/>
+        </template>
+      </div>
     </div>
 </template>
 
