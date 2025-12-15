@@ -1,13 +1,49 @@
+<template>
+  <div class="grid grid-cols-4 gap-4">
+    <card v-for="(card, index) in cardInformations" :key="index" :hasIcon="false">
+      <template #title>
+        {{ card.title }}
+      </template>
+      <template #total>
+        {{ card.total }}
+      </template>
+      <template #icon>
+        <component :is="card.icon" class="text-info-100 w-4 h-4" />
+      </template>
+      <!-- <template #increment>
+        <div class="border-[2px] py-0.5 px-2 text-white rounded-[26px]" :class="Number(card.increment) < 0
+          ? 'bg-danger-100 border-danger-50'
+          : Number(card.increment) < 100
+            ? 'bg-warning-100 border-warning-50'
+            : 'bg-success-100  border-success-50'
+          ">
+          <span class="font-semibold text-sm">
+            {{ card.increment }}
+          </span>
+        </div>
+      </template> -->
+      <!-- <template #icon>
+        <component :is="card.icon" class="text-info-100" />
+      </template>
+      <template #comparisonText>
+        {{ card.comparisonText }}
+      </template> -->
+    </card>
+  </div>
+</template>
+
 <script setup lang="ts">
-import { IconNoteList, IconWagon } from '#components'
-import type { components } from '@/api/apiMethods.types'
+import { IconNoteList, IconWagon } from '#components';
+import type { components } from '@/api/apiMethods.types';
+
 
 type ScaleStatisticsResponse = components['schemas']['ScaleStatisticsResponse']
 
 const { t } = useI18n();
+
 const props = defineProps<{
-  data: ScaleStatisticsResponse
-}>()
+  data: ScaleStatisticsResponse;
+}>();
 
 const cardInformations = computed(() => [
   {
@@ -40,41 +76,3 @@ const cardInformations = computed(() => [
   }
 ]);
 </script>
-
-<template>
-      <div class="grid grid-cols-4 gap-4">
-        <card v-for="(card, index) in cardInformations" :key="index" :hasIcon="false">
-          <template #title>
-            {{ card.title }}
-          </template>
-          <template #total>
-            {{ card.total }}
-          </template>
-          <template #icon>
-            <component :is="card.icon" class="text-info-100 w-4 h-4" />
-          </template>
-          <!-- <template #increment>
-            <div class="border-[2px] py-0.5 px-2 text-white rounded-[26px]" :class="Number(card.increment) < 0
-              ? 'bg-danger-100 border-danger-50'
-              : Number(card.increment) < 100
-                ? 'bg-warning-100 border-warning-50'
-                : 'bg-success-100  border-success-50'
-              ">
-              <span class="font-semibold text-sm">
-                {{ card.increment }}
-              </span>
-            </div>
-          </template> -->
-          <!-- <template #icon>
-            <component :is="card.icon" class="text-info-100" />
-          </template>
-          <template #comparisonText>
-            {{ card.comparisonText }}
-          </template> -->
-        </card>
-      </div>
-</template>
-
-<style scoped>
-
-</style>
