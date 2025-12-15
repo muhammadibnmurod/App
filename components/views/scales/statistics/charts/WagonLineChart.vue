@@ -16,7 +16,7 @@
       </div>
     </div>
     <div class="flex flex-col px-2 py-3 rounded-lg bg-surface-40 border border-surface-30 h-full">
-      <EChart :option="option" autoresize style="width: 100%; height: 100%" />
+      <ECharts :option="option" autoresize style="width: 100%; height: 100%" />
     </div>
   </div>
 </template>
